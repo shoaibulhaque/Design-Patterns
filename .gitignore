@@ -1,0 +1,31 @@
+# Eclipse-specific
+.settings/
+.classpath
+.project
+
+# Compiled class files
+bin/
+
+# Package Files
+*.jar
+*.war
+*.ear
+
+# External tooling
+target/
+
+# Ignore Eclipse folder for each pattern
+BuilderPattern/bin/
+BuilderPattern/.settings/
+BuilderPattern/.classpath
+BuilderPattern/.project
+
+SingletonPattern/bin/
+SingletonPattern/.settings/
+SingletonPattern/.classpath
+SingletonPattern/.project
+
+FactoryPattern/bin/
+FactoryPattern/.settings/
+FactoryPattern/.classpath
+FactoryPattern/.project
